@@ -80,7 +80,8 @@ We must verify vendor logging policies, transport encryption (TLS 1.3), data res
 
 ### Q2
 * **Number:** 22.2%
-* **Why:** 640 cl100k tokens expand to $640 \times (263/256) = 657.5$ e5 tokens for English. Since e5-small truncates context at 512 tokens[cite: 10], $657.5 - 512 = 145.5$ tokens are dropped ($145.5 / 657.5 = 22.2\%$). Russian and Kazakh are also truncated, losing ending context.
+* **Why:** 640 cl100k tokens expand to $640 \times (263/256) = 657.5$ e5 tokens for English. Since e5-small truncates context at 512 tokens
+* , $657.5 - 512 = 145.5$ tokens are dropped ($145.5 / 657.5 = 22.2\%$). Russian and Kazakh are also truncated, losing ending context.
 
 ### Q3
 * **Number:** 51.6%
